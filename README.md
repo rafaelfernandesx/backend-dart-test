@@ -143,7 +143,7 @@ Compila o servidor pra usar como executavel
 dart compile exe bin/server.dart -o bin/server.exe
 ```
 
-pra usar o executavel
+Para usar o executavel
 ```shell
 server.exe #--port 8080 --target nomeDaFuncao (default is "function")
 ```
