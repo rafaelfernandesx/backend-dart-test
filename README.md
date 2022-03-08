@@ -129,3 +129,21 @@ See [Quickstarts] to learn more about using the Dart Functions Framework.
 
 [Quickstarts]:
 https://github.com/GoogleCloudPlatform/functions-framework-dart/tree/main/docs#quickstarts
+
+
+## Comando pra usar sem docker
+
+Inicia o servidor de forma local
+```shell
+dart bin/server.dart #--port 8080 --target nomeDaFuncao (default is "function")
+```
+
+Compila o servidor pra usar como executavel
+```shell
+dart compile exe bin/server.dart -o bin/server.exe
+```
+
+pra usar o executavel
+```shell
+server.exe #--port 8080 --target nomeDaFuncao (default is "function")
+```
